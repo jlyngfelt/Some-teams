@@ -131,12 +131,12 @@ $teams = [
     ],
 ];
 
-foreach ($teams as $key => $team) { 
-    echo $key; ?><br><?php 
-    echo $team['league']; ?><br><?php
-    echo $team['uefa-coefficient-ranking']; ?><br><?php
-    echo $team['city']; ?><br><?php
-    echo $team['group']; ?><br><?php
-    echo $team['logo']; ?><br><?php
-    echo $team['url']; ?><br><?php
-}
+// foreach ($teams as $key => $team) { 
+//     echo $key; ?><br><?php 
+//     echo $team['league']; ?><br><?php
+//     echo $team['uefa-coefficient-ranking']; ?><br><?php
+//     echo $team['city']; ?><br><?php
+//     echo $team['group']; ?><br><?php
+//     echo $team['logo']; ?><br><?php
+//     echo $team['url']; ?><br><?php
+// }
