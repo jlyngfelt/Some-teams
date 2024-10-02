@@ -131,12 +131,16 @@ $teams = [
     ],
 ];
 
-// foreach ($teams as $key => $team) { 
-//     echo $key; ?><br><?php 
-//     echo $team['league']; ?><br><?php
-//     echo $team['uefa-coefficient-ranking']; ?><br><?php
-//     echo $team['city']; ?><br><?php
-//     echo $team['group']; ?><br><?php
-//     echo $team['logo']; ?><br><?php
-//     echo $team['url']; ?><br><?php
-// }
+
+foreach ($teams as $team => $groups) {
+    ?><h1><?=$team;?></h1><?php
+?> <a href=" <?= $groups['url'] ?> "><img src="<?= $groups['logo']?>" alt="Team logo" width="200px" height="200px"></a> 
+<ul>
+    <li><p>League: <?= $groups['league']?></p></li>
+    <li><p>City: <?= $groups['city']?></p></li>
+    <li><p>Uefa-ranking: <?= $groups['uefa-coefficient-ranking']?></p></li>
+    <li><p>Group: <?= $groups['group']?></p></li>
+
+</ul>
+<?php
+}
