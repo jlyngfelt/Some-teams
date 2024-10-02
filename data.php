@@ -132,15 +132,3 @@ $teams = [
 ];
 
 
-foreach ($teams as $team => $groups) {
-    ?><h1><?=$team;?></h1><?php
-?> <a href=" <?= $groups['url'] ?> "><img src="<?= $groups['logo']?>" alt="Team logo" width="200px" height="200px"></a> 
-<ul>
-    <li><p>League: <?= $groups['league']?></p></li>
-    <li><p>City: <?= $groups['city']?></p></li>
-    <li><p>Uefa-ranking: <?= $groups['uefa-coefficient-ranking']?></p></li>
-    <li><p>Group: <?= $groups['group']?></p></li>
-
-</ul>
-<?php
-}
