@@ -8,7 +8,10 @@
 </head>
 <body>
     <nav class="header">
-        <p>Read more <a href="/about.php">about</a> me</p>
         <h1>Some Teams</h1>
+        <div class="header-links">
+            <p><a href="index.php">Home</a></p>
+            <p><a href="about.php">About</a></p>
+            </div>
     </nav>
     

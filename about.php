@@ -6,6 +6,9 @@
     <title>About me</title>
 </head>
 <body>
+    <?php
+require_once __DIR__ ."/header.php";
+?>
     <h1>Welcome to the page about me</h1>
     
 
