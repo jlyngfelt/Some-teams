@@ -8,8 +8,6 @@
 
 }
 
-
-
 body {
     box-sizing: border-box; 
     width: 100vw; 
@@ -19,19 +17,34 @@ body {
     padding: 2% 5% 5% 5%; 
     }
 
-
-
-main {
+.main-main {
     display: grid;
     max-width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap:40px
-    
+}
+
+.main-about {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 330px);
+    gap: 30px;
 }
 
 p {
-    font-size: 20px;
-    margin: 3px;
+    font-size: 16px;
+    margin: 5px;
+    font-family: Titillium Web, Poppins, sans-serif;
+}
+
+.preamble p {
+    font-weight: bold;
+    padding: 12px;
+}
+
+.preamble .body-text {
+    font-weight: normal;
 }
 
 a {
@@ -40,7 +53,7 @@ a {
     font-family: Titillium Web, Poppins, sans-serif;
 }
 
-a:hover{
+.header a:hover{
     background-color: var(--chantarelle-opacity);
     padding: 10px;
     border-radius: 10px;
@@ -86,6 +99,7 @@ a:hover{
 }
 
 h1 {
+    display: inline;
     font-family: Titillium Web, Poppins, sans-serif;
     font-size: 45px;
     color: var(--rust);
@@ -107,3 +121,17 @@ footer {
     padding: 30px;
     color: var(--ceramics);
 }
+
+.main-about img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    grid-area: 1 / 1 / span 2 / 2 ;
+}
+
+.preamble {
+    grid-area: 1 / 2 / 3 / span 2;
+}
+
+
+

@@ -3,7 +3,7 @@
 require __DIR__ ."/data.php";
 ?>
 
-<main>
+<main class="main-main">
 <?php
 foreach ($teams as $team => $groups) {
     ?><article class="card"><h2><?=$team;?></h2><article?php
