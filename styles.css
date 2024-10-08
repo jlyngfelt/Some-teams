@@ -15,7 +15,7 @@ body {
     background-color: var(--cream);
     font-size: 12px; 
     padding: 2% 5% 5% 5%; 
-    }
+}
 
 .main-main {
     display: grid;
@@ -95,7 +95,6 @@ a {
     border-style: outset;
     padding: 10px;
     border-radius: 10px;
-    
 }
 
 h1 {
@@ -106,10 +105,14 @@ h1 {
     display: block;
 }
 
-h2 {
-    color: black;
-    font-size: 35px;
+.preamble h1 {
+    margin-bottom: 10px;
+}
 
+h2 {
+    color: --charcoal;
+    font-size: 30px; 
+    font-family: Titillium Web, Poppins, sans-serif;
 }
 
 ul {
