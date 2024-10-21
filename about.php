@@ -1,3 +1,7 @@
+    <?php
+    require_once __DIR__ ."/header.php";
+    ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +10,6 @@
     <title>About me</title>
 </head>
 <body>
-    <?php
-    require_once __DIR__ ."/header.php";
-    ?>
     
 <main class="main-about">
     <img src="Julia.png" alt="Picture of Julia">
